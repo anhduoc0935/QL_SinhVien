@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtHoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten sinh vien"
+        android:textSize="24dp"></TextView>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email sinh vien"
+        android:textSize="24dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/ic_menu"></ImageView>
+</FrameLayout>

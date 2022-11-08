@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item_themSV"
+    android:title="Them Sinh Vien"></item>
+    <item android:id="@+id/item_SuaSV"
+        android:title="Sua Thong tin"></item>
+    <item android:id="@+id/item_XoaSV"
+        android:title="Xoa"></item>
+</menu>
